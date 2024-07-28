@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(https://preview.redd.it/y5nie00m2yed1.png?width=1920&format=png&auto=webp&s=63e393c816dcde1d416e462c28097f15cadc3468);
+    background-size: cover;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header .menu {
+    background: #1A212D;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+ /*   font-size: 35px; */
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.menu_button a {
+    font-size: 20px;
+    color: #486B9E;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #222D3D;
+    box-shadow: 0px 5px 10px #000;
+  transition: background-color 0.3s ease;
+}
+
+.menu_button a:hover {
+    background-color: #486B9E;
+    color: #ffffff;
+}
+
+main {
+    padding: 40px;
+}
+
+.home, .intro, .invite-link {
+    margin-bottom: 40px;
+}
+
+.home, .intro h2, .invite-link h2 {
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.home p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro p, .invite-link p, .intro ul, .invite-link ol {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.intro ul, .invite-link ol {
+    padding-left: 20px;
+}
+
+.intro ul li, .invite-link ol li {
+    margin-bottom: 10px;
+}
