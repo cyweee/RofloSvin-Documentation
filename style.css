@@ -81,3 +81,35 @@ h2{
 .intro ul li, .invite-link ol li {
     margin-bottom: 10px;
 }
+footer {
+    background-color: #172a3a;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-link {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.footer-link span {
+    margin-left: 5px;
+}
+
+.footer-center {
+    text-align: center;
+}
